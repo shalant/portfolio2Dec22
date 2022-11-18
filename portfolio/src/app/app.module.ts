@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 // import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +38,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -85,6 +86,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     MatIconModule,
     MatToolbarModule,
     MatCardModule,
+    HttpClientModule,
+    NoopAnimationsModule,
     // FlexLayoutModule
   ],
   providers: [],
