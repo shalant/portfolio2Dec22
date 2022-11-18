@@ -21,37 +21,37 @@ export class PortfolioComponent {
     {
       name: 'Tiger Phone',
       technologies: 'ASP.NET Web API, Angular, Azure',
-      description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
-      github: 'https://github.com/shalant/AirlineTravelApp'
+      description: 'This is a full-stack Airline application, with an Angular front end, ASP.NET back end, and configured to use a MS SQL Server DB. The admin can add Passenger, Flights, and create a booking',
+      image: '../../../assets/projectScreenshots/Tiger.png',
+      github: 'https://github.com/shalant/TigerPhone'
     },
     {
       name: 'Doug Rosenberg Music',
-      technologies: '36',
-      description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
-      github: 'https://github.com/shalant/AirlineTravelApp'
+      technologies: 'Javascript, HTML, CSS- Bootstrap, ParticlesJS, Text effects, Chatbot, Photo Gallery Carousel',
+      description: 'Homepage for my music universe, with sheet music for students and links to buy CDs',
+      image: '../../../assets/projectScreenshots/DRM.png',
+      github: 'https://github.com/shalant/music-site-2'
     },
     {
       name: 'AWS Resilient Fault Tolerant Wordpress',
-      technologies: '36',
-      description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
-      github: 'https://github.com/shalant/AirlineTravelApp'
+      technologies: 'AWS, CloudFormation, Elasticache, Aurora, EFS, ALB, Auto-scaling',
+      description: 'The AWS Architecture Capstone Project involves hosting a WordPress site on a cloud environment, using several key principles',
+      image: '../../../assets/projectScreenshots/FancyAwsBlog.png',
+      github: 'https://github.com/shalant/AWS-resilient-fault-tolerant-wordpress'
     },
     {
       name: 'Dynamic Wines',
-      technologies: '36',
-      description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
-      github: 'https://github.com/shalant/AirlineTravelApp'
+      technologies: 'React, Google Maps, Express, Node, Mongo DB',
+      description: 'Final group project for a class on the MERN stack',
+      image: '../../../assets/projectScreenshots/DynamicWines.png',
+      github: 'https://github.com/shalant/dynamicwines2/'
 
     },
     {
-      name: 'Uday',
-      technologies: '36',
+      name: 'CI/CD Pipeline',
+      technologies: 'Jenkins, AWS, Docker, Kubernetes, Github',
       description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
+      image: '../../../assets/projectScreenshots/CICD.png',
       github: 'https://github.com/shalant/AirlineTravelApp'
     },
     {
