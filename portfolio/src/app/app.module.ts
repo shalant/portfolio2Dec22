@@ -60,7 +60,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
+    // MaterialModule,
     FormsModule,
     MatNativeDateModule,
     ReactiveFormsModule,
