@@ -20,7 +20,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import { StopTrainingComponent } from './training/current-training/stop-training.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatFormFieldModule, MatLabel} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 // import {MatNativeDateModule} from '@angular/material/core;
@@ -33,6 +33,11 @@ import {MatCardModule} from '@angular/material/card';
 import {MatSelectModule} from '@angular/material/select';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatDialogModule} from '@angular/material/dialog';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
+import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +52,9 @@ import {MatDialogModule} from '@angular/material/dialog';
     HeaderComponent,
     SidenavListComponent,
     StopTrainingComponent,
-
+    AboutComponent,
+    PortfolioComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -70,7 +77,15 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatCardModule,
     MatSelectModule,
     MatProgressSpinnerModule,
-    MatDialogModule
+    MatDialogModule,
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatTableModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatCardModule,
+    // FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent],
