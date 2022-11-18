@@ -1,3 +1,5 @@
+/* make a media query for mobile max width to be bigger */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -22,7 +24,7 @@
 
 .example-card {
     /* max-width: 400px; */
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2.95px 1.95px 2.6px;
     margin: 2rem 0 2rem 0;
 }
 
@@ -37,6 +39,22 @@
     background-size: cover;
   }
   
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1043px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards {
+    min-width: 60vw;
+    max-width: 70vw;
+  }
+}
+
+
 
 
 
