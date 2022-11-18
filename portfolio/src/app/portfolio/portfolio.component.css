@@ -1,21 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  /* width: 100vw; */
+}
+
 .grid-container {
   display: grid;
-  grid-column: 2;
-  grid-template-columns: repeat (2, minmax(300px, 2fr));
-  align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .cards {
-  grid-column: auto;
-  min-height: 200px;
   display: flex;
-  overflow: hidden;
+  margin: 0 3rem 0 3rem;
+  /* min-width: 350px; */
+  min-width: 30vw;
+  max-width: 40vw;
 }
 
 .example-card {
-    max-width: 400px;
+    /* max-width: 400px; */
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin: 2rem 0 2rem 0;
 }
