@@ -1,8 +1,10 @@
-<div class="container" id="container">
+<div class="row">
+<div class="grid-container col-sm-4 col-lg-8" id="container">
 
-  <ul>
+  <!-- <ul> -->
 
-    <li class="cards" *ngFor="let item of projectList">
+    <!-- <li class="cards" *ngFor="let item of projectList"> -->
+    <div class="cards" *ngFor="let item of projectList">
       <!-- {{ item.name }} is {{ item.age }} years old -->
 
       <mat-card class="example-card">
@@ -25,9 +27,9 @@
         </mat-card-actions>
       </mat-card>
 
-    </li>
-
-  </ul>
+    </div>
+  </div>
+  <!-- </ul> -->
 
 </div>
 
