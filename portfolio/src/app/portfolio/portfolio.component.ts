@@ -55,15 +55,15 @@ export class PortfolioComponent {
       github: 'https://github.com/shalant/AirlineTravelApp'
     },
     {
-      name: 'Mayank',
-      technologies: '36',
+      name: 'Blah',
+      technologies: 'blah',
       description: 'blahblahblah',
       image: '../../../assets/projectScreenshots/ATA.png',
       github: 'https://github.com/shalant/AirlineTravelApp'
     },
     {
-      name: 'Raju',
-      technologies: '36',
+      name: 'Blah',
+      technologies: 'blah',
       description: 'blahblahblah',
       image: '../../../assets/projectScreenshots/ATA.png',
       github: 'https://github.com/shalant/AirlineTravelApp'

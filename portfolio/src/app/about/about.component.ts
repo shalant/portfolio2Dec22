@@ -64,7 +64,6 @@ export class AboutComponent {
 
   constructor(private _liveAnnouncer: LiveAnnouncer) {}
 
-
   @ViewChild(MatPaginator) paginator !: MatPaginator;
   @ViewChild(MatSort) sort !: MatSort;
 
