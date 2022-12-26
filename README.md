@@ -9,8 +9,8 @@ Second screen shot show an Angular-Material table display of all the technologie
 The final screen shot shows the Mat-Cards I used to showcase my projects.
 
 <img src="/portfolio/src/assets/earlyHeader.png" alt="Homepage" title="Homepage">
-<img src="/src/assets/table.png" alt="Homepage" title="Table">
-<img src="/src/assets/portfolio.png" alt="Homepage" title="Portfolio">
+<img src="/portfolio/src/assets/table.png" alt="Homepage" title="Table">
+<img src="/portfolio/src/assets/portfolio.png" alt="Homepage" title="Portfolio">
 
 ## Further development
 Until I can successfully host my old site, I'm holding off and focusing on back-end work. Eventually I will add a nice contact form, a few text effects, and some bells and whistles to showcase my moderate front-end chops.
