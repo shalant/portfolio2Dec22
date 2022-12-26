@@ -1,27 +1,16 @@
 # Portfolio
+This is a work in progress. About 50% finished. I want to retain and migrate my decent React site that is currently up to www.dougrosenbergdevarchive.com, and put this up
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+## Screenshots
+The first screen shot shows the kind-of-cool design of the landing page, although the parallax scrolling effect doesn't come through lol.
 
-## Development server
+Second screen shot show an Angular-Material table display of all the technologies I know, with sorting, filtering, and pagination. I also have some basic biographical info there.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The final screen shot shows the Mat-Cards I used to showcase my projects.
 
-## Code scaffolding
+<img src="/src/assets/earlyHeader.png" alt="Homepage" title="Homepage">
+<img src="/src/assets/table.png" alt="Homepage" title="Table">
+<img src="/src/assets/portfolio.png" alt="Homepage" title="Portfolio">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Further development
+Until I can successfully host my old site, I'm holding off and focusing on back-end work. Eventually I will add a nice contact form, a few text effects, and some bells and whistles to showcase my moderate front-end chops.
