@@ -8,7 +8,7 @@ Second screen shot show an Angular-Material table display of all the technologie
 
 The final screen shot shows the Mat-Cards I used to showcase my projects.
 
-<img src="/src/assets/earlyHeader.png" alt="Homepage" title="Homepage">
+<img src="/portfolio/src/assets/earlyHeader.png" alt="Homepage" title="Homepage">
 <img src="/src/assets/table.png" alt="Homepage" title="Table">
 <img src="/src/assets/portfolio.png" alt="Homepage" title="Portfolio">
 
